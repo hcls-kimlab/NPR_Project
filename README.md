@@ -14,9 +14,9 @@ from the file gene_rpkm_matrix_fb_2021_06.tsv, which was downloaded from FlyBase
 
 
 ## Data Pre Processing
-<!--<p align="center">
-  <img width="50%" height="50%" src="imgs/network_tf_np_npr.gif">
-</p>-->
+<p align="center">
+  <img width="50%" height="50%" src="imgs/figure1.png">
+</p>
 Using a Python program, data on tissue, genes, cells, gene expression levels in cells, 
 and motif expression levels in cells were stored in a MySQL database via the Python package scanpy. 
 In these files, the number of tissues stored is 17, genes are 16,373, cells are 507,827
