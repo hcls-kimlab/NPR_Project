@@ -1,7 +1,7 @@
 ![header](imgs/network_tf_np_npr.gif)
 
 
-# TFs, NPs, NPRs Network
+# Neuropeptide Receptor Regulation and Adaptation
 
 This repository provides the data and source code used in the paper(https://www.biorxiv.org/content/10.1101/2024.11.23.624967v1).
 
