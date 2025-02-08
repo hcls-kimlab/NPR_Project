@@ -144,7 +144,15 @@ and TFs by linking the relationships within the data without generating new data
 By pre-constructing and storing this connection information in a table, 
 we retrieved only the necessary data to create the network and generated the required files.
 
-## Zekun Wu add saction.(Regulation of aging)
+## Regulation of aging
+Aging involves significant gene expression changes controlled by transcription factors (TFs), especially those involved in the insulin/insulin-like growth factor 1 (IIS) pathway, the target of rapamycin (TOR) pathway, and the FOXO family of TFs. These pathways regulate aging processes such as antioxidant defense, DNA repair, and autophagy. We examine these processes in *Drosophila* using data from the Aging Fly Cell Atlas (AFCA).
+### Key Findings
+- NPR genes are regulated by more TFs than NP genes, suggesting a more complex regulatory network.
+- At the mRNA level, NPR expression increases with age, while NP expression peaks at day 5 and declines thereafter.
+- TF-NP pairs show a slight decrease in importance with age, while TF-NPR pairs have a more pronounced decline.
+- The top-ranked TF-NPR pairs reveal stronger regulatory effects, indicating that NPR genes are influenced by key TFs with stronger effects.
+
+The analysis uses scRNA-seq data from different ages (1, 3, 5, 20, 50, and 70 days) and employs SCENIC and other tools to predict TF regulons and importance scores.
 
 ## Visualization of NPs, NPRs, and TFs Network
 <p align="center">
