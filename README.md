@@ -1,4 +1,4 @@
-![header](imgs/network_tf_np_npr.gif)
+<!--![header](imgs/network_tf_np_npr.gif)-->
 
 
 # Neuropeptide Receptor Regulation and Adaptation
@@ -18,6 +18,8 @@ The pre-built MySQL database contains about 21G of data, allowing for checking
 gene expression across the entire Drosophila, not limited to tissues, using SQL queries.
 The missing genetic information could also be constructed from the gene table data obtained 
 from the file gene_rpkm_matrix_fb_2021_06.tsv, which was downloaded from FlyBase(https://flybase.org/).
+
+## Data Processing
 
 ## Zekun Wu add saction.(Regulation of aging)
 
