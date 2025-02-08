@@ -9,6 +9,8 @@ This repository provides the data and source code used in the paper(https://www.
 
 The fly cell atlas portal (https://flycellatlas) was utilized, which provides single-cell RNA sequencing (snRNA-seq) data, 
 a total of 17 loom files were obtained for tissue snRNA-seq data. 
+The missing genetic information could also be constructed from the gene table data obtained 
+from the file gene_rpkm_matrix_fb_2021_06.tsv, which was downloaded from FlyBase(https://flybase.org/).
 
 
 ## Data Processing
@@ -18,8 +20,7 @@ In these files, the number of tissues stored is 17, genes are 16,373, cells are 
 and TFs are 565. Approximately 450 million gene expression records were stored. 
 The pre-built MySQL database contains about 21G of data, allowing for checking 
 gene expression across the entire Drosophila, not limited to tissues, using SQL queries.
-The missing genetic information could also be constructed from the gene table data obtained 
-from the file gene_rpkm_matrix_fb_2021_06.tsv, which was downloaded from FlyBase(https://flybase.org/).
+
 
 ## Preparing Network Data 
 
