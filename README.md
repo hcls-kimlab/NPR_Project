@@ -141,6 +141,9 @@ and TFs by linking the relationships within the data without generating new data
 	
 </div>
 
+By pre-constructing and storing this connection information in a table, 
+we retrieved only the necessary data to create the network and generated the required files.
+
 ## Zekun Wu add saction.(Regulation of aging)
 
 ## Visualization of NPs, NPRs, and TFs Network
