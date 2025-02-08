@@ -22,6 +22,9 @@ from the file gene_rpkm_matrix_fb_2021_06.tsv, which was downloaded from FlyBase
 ## Zekun Wu add saction.(Regulation of aging)
 
 ## Visualization of NPs, NPRs, and TFs Network
+<p align="center">
+  <img width="50%" height="50%" src="imgs/network_tf_np_npr.gif">
+</p>
 
 10 NPs and 13 NPRs required for the TF network experiment were selected. In the Fly Cell Atlas, 
 TF-related information is organized using the AUCell algorithm. We used the relational data between these genes and TFs.
