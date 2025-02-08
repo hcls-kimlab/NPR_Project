@@ -21,6 +21,8 @@ gene expression across the entire Drosophila, not limited to tissues, using SQL 
 The missing genetic information could also be constructed from the gene table data obtained 
 from the file gene_rpkm_matrix_fb_2021_06.tsv, which was downloaded from FlyBase(https://flybase.org/).
 
+## Preparing Network Data 
+
 ## Zekun Wu add saction.(Regulation of aging)
 
 ## Visualization of NPs, NPRs, and TFs Network
