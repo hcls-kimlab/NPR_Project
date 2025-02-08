@@ -5,11 +5,14 @@
 
 This repository provides the data and source code used in the paper(https://www.biorxiv.org/content/10.1101/2024.11.23.624967v1).
 
-## Data Curation and Processing
+## Data Curation
 
 Using the Fly Cell Atlas platform, which provides single-cell RNA sequencing (snRNA-seq) data, 
 a total of 17 loom files were obtained for tissue snRNA-seq data. 
 The fly cell atlas portal (https://flycellatlas) was utilized. 
+
+
+## Data Processing
 Using a Python program, data on tissue, genes, cells, gene expression levels in cells, 
 and motif expression levels in cells were stored in a MySQL database via the Python package scanpy. 
 In these files, the number of tissues stored is 17, genes are 16,373, cells are 507,827
@@ -18,8 +21,6 @@ The pre-built MySQL database contains about 21G of data, allowing for checking
 gene expression across the entire Drosophila, not limited to tissues, using SQL queries.
 The missing genetic information could also be constructed from the gene table data obtained 
 from the file gene_rpkm_matrix_fb_2021_06.tsv, which was downloaded from FlyBase(https://flybase.org/).
-
-## Data Processing
 
 ## Zekun Wu add saction.(Regulation of aging)
 
