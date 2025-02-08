@@ -7,9 +7,8 @@ This repository provides the data and source code used in the paper(https://www.
 
 ## Data Curation
 
-Using the Fly Cell Atlas platform, which provides single-cell RNA sequencing (snRNA-seq) data, 
+The fly cell atlas portal (https://flycellatlas) was utilized, which provides single-cell RNA sequencing (snRNA-seq) data, 
 a total of 17 loom files were obtained for tissue snRNA-seq data. 
-The fly cell atlas portal (https://flycellatlas) was utilized. 
 
 
 ## Data Processing
