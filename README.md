@@ -123,9 +123,9 @@ providing information on the genes regulated by TFs and the gene expression leve
 Therefore, for our experiment, we were able to extract data on the expression levels of NP, NPRs, 
 and TFs by linking the relationships within the data without generating new data, using statistical methods.
 
-
-```shell
+<div align="center">
 |Tissue|Motif|TF|NP|NPR|NP GeneExpression|NPR GeneExpression|
+|-----|---------|-------|------|------|------|------|
 |Body|acj6_(+)|acj6|sNPF|sNPF-R|5.50833|1.725|
 |Body|Atf6_(+)|Atf6|sNPF|sNPF-R|5.50833|1.725|
 |Body|CG16779_(+)|CG16779|AstA|AstA-R1|7.04444|4.21481|
@@ -137,8 +137,8 @@ and TFs by linking the relationships within the data without generating new data
 |Head|CG16779_(+)|CG16779|AstA|AstA-R1|7.0572|4.3178|
 |Head|CG16779_(+)|CG16779|sNPF|sNPF-R|3.39565|1.45351|
 |Head|CG44247_(+)|CG44247|FMRFa|FMRFaR|3.33333|1.21569|
-```
-
+	
+</div>
 
 ## Zekun Wu add saction.(Regulation of aging)
 
