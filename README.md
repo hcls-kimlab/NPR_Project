@@ -118,19 +118,26 @@ group by e.tname , e.tname , np_npr.npmotifname, np_npr.nprmotifname , np_npr.tf
 order by e.dispord , e.tname , np_npr.npmotifname, np_npr.nprmotifname, np_npr.tfgeneid ,  np_npr.tfgeneid , np_npr.npgeneid
  
 ```
-이 쿼리의 예는 NP,TF를 
+In the Fly Cell Atlas, TF-related information is organized using the AUCell algorithm, 
+providing information on the genes regulated by TFs and the gene expression levels in each cell. 
+Therefore, for our experiment, we were able to extract data on the expression levels of NP, NPRs, 
+and TFs by linking the relationships within the data without generating new data, using statistical methods.
 
 <div align="center">
 
-|  | Tissue | # Cell | Cell No | Gene | Gene Expression | TF | TF Expression |
-|---|-------------------|----------|--------|-------------|---------------|---------|---------|
-| | Architecture | - | MoE | Dense | Dense | MoE | MoE |
-| | # Activated Params | - | 21B | 72B | 405B | 37B |37B |
-
-| Multilingual | MMMLU-non-English (Acc.) | 5-shot | 64.0 | 74.8 | 73.8 | **79.4** | **79.4** |
-
+|Tissue|Motif|TF|NP|NPR|NP GeneExpression|NPR GeneExpression|
+|Body|acj6_(+)|acj6|sNPF|sNPF-R|5.50833|1.725|
+|Body|Atf6_(+)|Atf6|sNPF|sNPF-R|5.50833|1.725|
+|Body|CG16779_(+)|CG16779|AstA|AstA-R1|7.04444|4.21481|
+|Body|CG16779_(+)|CG16779|sNPF|sNPF-R|5.50833|1.725|
+|Body|dimm_(+)|dimm|AstC|AstC-R1|6.12048|1.86747|
+|Head|Atac3_(+)|Atac3|sNPF|sNPF-R|3.40309|1.45361|
+|Head|bru3_(+)|bru3|AstA|AstA-R1|7.0572|4.3178|
+|Head|Cf2_(+)|Cf2|sNPF|sNPF-R|3.39565|1.45351|
+|Head|CG16779_(+)|CG16779|AstA|AstA-R1|7.0572|4.3178|
+|Head|CG16779_(+)|CG16779|sNPF|sNPF-R|3.39565|1.45351|
+|Head|CG44247_(+)|CG44247|FMRFa|FMRFaR|3.33333|1.21569|
 </div>
-
 
 ## Zekun Wu add saction.(Regulation of aging)
 
