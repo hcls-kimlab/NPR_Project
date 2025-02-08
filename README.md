@@ -13,7 +13,7 @@ The missing genetic information could also be constructed from the gene table da
 from the file gene_rpkm_matrix_fb_2021_06.tsv, which was downloaded from FlyBase(https://flybase.org/).
 
 
-## Data Processing
+## Data Pre Processing
 Using a Python program, data on tissue, genes, cells, gene expression levels in cells, 
 and motif expression levels in cells were stored in a MySQL database via the Python package scanpy. 
 In these files, the number of tissues stored is 17, genes are 16,373, cells are 507,827
