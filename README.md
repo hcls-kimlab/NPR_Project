@@ -14,10 +14,15 @@ from the file gene_rpkm_matrix_fb_2021_06.tsv, which was downloaded from FlyBase
 
 
 ## Data Pre Processing
+<!--<p align="center">
+  <img width="50%" height="50%" src="imgs/network_tf_np_npr.gif">
+</p>-->
 Using a Python program, data on tissue, genes, cells, gene expression levels in cells, 
 and motif expression levels in cells were stored in a MySQL database via the Python package scanpy. 
 In these files, the number of tissues stored is 17, genes are 16,373, cells are 507,827
-and TFs are 565. Approximately 450 million gene expression records were stored. 
+and TFs are 565. 1,657,811 motif regulon data regulating gene transcription by tissue, 
+and 113,532,025 motif regulon data regulating gene transcription by tissue and cell.
+Approximately 450 million gene expression records, regulon motif  were stored. 
 The pre-built MySQL database contains about 21G of data, allowing for checking 
 gene expression across the entire Drosophila, not limited to tissues, using SQL queries.
 
