@@ -154,7 +154,7 @@ Aging involves significant gene expression changes controlled by transcription f
 - TF-NP pairs show a slight decrease in importance with age, while TF-NPR pairs have a more pronounced decline.
 - The top-ranked TF-NPR pairs reveal stronger regulatory effects, indicating that NPR genes are influenced by key TFs with stronger effects.
 
-The analysis uses scRNA-seq data from different ages (1, 3, 5, 20, 50, and 70 days) and employs SCENIC and other tools to predict TF regulons and importance scores.
+The analysis uses scRNA-seq data from different ages ( 5, 30, 50, and 70 days) and employs SCENIC and other tools to predict TF regulons and importance scores.
 
 ## Visualization of NPs, NPRs, and TFs Network
 <p align="center">
