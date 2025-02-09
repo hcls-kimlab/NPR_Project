@@ -141,6 +141,21 @@ and TFs by linking the relationships within the data without generating new data
 | Head | CG16779_(+) | CG16779 | sNPF | sNPF-R | 3.39565 | 1.45351 |
 | Head | CG44247_(+) | CG44247 | FMRFa | FMRFaR | 3.33333 | 1.21569 |
 | ... | ...| ... | ... | ... | ... | ... |
+
+
+| Tissue | Motif | TF | TF Count | Gene | Gene Count | Expression | 
+| ----- | --------- | ------- | ------ | ------ | ------ | ------ | 
+| Head | Clk_(-)-NP | Clk | 14098 | sNPF | 4 | 2.71301 | 
+| Head | cyc_(+)-NP | cyc | 11784 | sNPF | 2 | 2.69671 | 
+| Head | Kr_(+)-NPR | Kr | 10186 | sNPF-R | 13 | 1.41292 | 
+| Head | Lmx1a_(+)-NPR | Lmx1a | 10172 | sNPF-R | 8 | 1.41349 | 
+|  ... |  ... |  ... |  ... |  ... |  ... |  ... | 
+| Body | Lmx1a_(+)-NP | Lmx1a | 1332 | AstC | 75 | 2.78829 | 
+| Body | Mitf_(-)-NP | Mitf | 339 | natalisin | 1 | 1.04425 | 
+| Body | abd-A_(+)-NPR | abd-A | 2323 | sNPF-R | 1 | 1.52734 | 
+| Body | Atf6_(-)-NPR | Atf6 | 6272 | AstA-R1 | 3 | 2.53364 | 
+| ... | ... | ... | ... | ... | ... | ... | 
+
 	
 </div>
 
