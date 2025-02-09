@@ -1,8 +1,8 @@
-# Transcriptional Regulation of NP Signaling in Aging
+# Transcriptional Regulation of NP and NPR Signaling in Aging
 
 This repository contains the code and results for studying the transcriptional regulation of neuropeptide (NP) and neuropeptide receptor (NPR) genes during aging in *Drosophila melanogaster*. The study explores how transcription factors (TFs) regulate these genes over time, with a focus on identifying TFs that control NP and NPR expression across different ages.
 
-## Overview
+## Introduction
 
 Aging involves significant gene expression changes controlled by transcription factors (TFs), especially those involved in the insulin/insulin-like growth factor 1 (IIS) pathway, the target of rapamycin (TOR) pathway, and the FOXO family of TFs. These pathways regulate aging processes such as antioxidant defense, DNA repair, and autophagy. We examine these processes in *Drosophila* using data from the Aging Fly Cell Atlas (AFCA).
 
@@ -35,7 +35,11 @@ The data acquisition process is described in the README.md file located in the d
 
 ## Results
 
-The results of the analysis, including the importance scores and regulatory network diagrams, are stored in the `results/ave_importance` and `results/figures` directories. These include PDFs of heatmaps, Venn diagrams, and network diagrams.
+The results of the analysis, including the importance scores and regulatory network diagrams, are stored in the `imgs` and `ave_importance` directories. These include PDFs of heatmaps, Venn diagrams, and network diagrams.
+
+### `ave_importance` Folder
+
+The `ave_importance` folder contains files related to the analysis of network importance for transcription factor (TF), neuropeptide (NP), and neuropeptide receptor (NPR) pairs. It is divided into two subfolders: `Top100_combined_TF-NP-NPR-pairs_network` and `Top50_seperated_TF-NP-NPR-pairs_network`. For a detailed description of the contents and usage of this folder, refer to the README file located within the `ave_importance` folder.
 
 ## Citation
 
