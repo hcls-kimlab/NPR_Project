@@ -11,6 +11,7 @@ The fly cell atlas portal (https://flycellatlas) was utilized, which provides si
 a total of 17 loom files were obtained for tissue snRNA-seq data. 
 The missing genetic information could also be constructed from the gene table data obtained 
 from the file gene_rpkm_matrix_fb_2021_06.tsv, which was downloaded from FlyBase(https://flybase.org/).
+The aging data was obtained from the Aging Fly Cell Atlas(https://hongjielilab.shinyapps.io/AFCA/).
 
 
 ## Data Pre Processing
@@ -132,12 +133,14 @@ and TFs by linking the relationships within the data without generating new data
 | Body | CG16779_(+) | CG16779 | AstA | AstA-R1 | 7.04444 | 4.21481 |
 | Body | CG16779_(+) | CG16779 | sNPF | sNPF-R | 5.50833 | 1.725 |
 | Body | dimm_(+) | dimm | AstC | AstC-R1 | 6.12048 | 1.86747 |
+| ... | ...| ... | ... | ... | ... | ... |
 | Head | Atac3_(+) | Atac3 | sNPF | sNPF-R | 3.40309 | 1.45361 |
 | Head | bru3_(+) | bru3 | AstA | AstA-R1 | 7.0572 | 4.3178 |
 | Head | Cf2_(+) | Cf2 | sNPF | sNPF-R | 3.39565 | 1.45351 |
 | Head | CG16779_(+) | CG16779 | AstA | AstA-R1 | 7.0572 | 4.3178 |
 | Head | CG16779_(+) | CG16779 | sNPF | sNPF-R | 3.39565 | 1.45351 |
 | Head | CG44247_(+) | CG44247 | FMRFa | FMRFaR | 3.33333 | 1.21569 |
+| ... | ...| ... | ... | ... | ... | ... |
 	
 </div>
 
