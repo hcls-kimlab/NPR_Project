@@ -121,8 +121,8 @@ order by e.dispord , e.tname , np_npr.npmotifname, np_npr.nprmotifname, np_npr.t
 ```
 In the Fly Cell Atlas, TF-related information is organized using the AUCell algorithm, 
 providing information on the genes regulated by TFs and the gene expression levels in each cell. 
-Therefore, for our experiment, we were able to extract data on the expression levels of NP, NPRs, 
-and TFs by linking the relationships within the data without generating new data, using statistical methods.
+Therefore, in this experiment, statistical methods are used to connect relationships within the data without generating new data, 
+allowing for the extraction of data on the expression levels of NP, NPR, and TF
 
 <div align="center">
 	
