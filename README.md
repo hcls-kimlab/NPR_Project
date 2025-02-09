@@ -126,23 +126,6 @@ and TFs by linking the relationships within the data without generating new data
 
 <div align="center">
 	
-| Tissue | Motif | TF | NP | NPR | NP GeneExpression | NPR GeneExpression |
-|-----|---------|-------|------|------|------|------|
-| Body | acj6_(+) | acj6 | sNPF | sNPF-R | 5.50833 | 1.725 |
-| Body | Atf6_(+) | Atf6 | sNPF | sNPF-R | 5.50833 | 1.725 |
-| Body | CG16779_(+) | CG16779 | AstA | AstA-R1 | 7.04444 | 4.21481 |
-| Body | CG16779_(+) | CG16779 | sNPF | sNPF-R | 5.50833 | 1.725 |
-| Body | dimm_(+) | dimm | AstC | AstC-R1 | 6.12048 | 1.86747 |
-| ... | ...| ... | ... | ... | ... | ... |
-| Head | Atac3_(+) | Atac3 | sNPF | sNPF-R | 3.40309 | 1.45361 |
-| Head | bru3_(+) | bru3 | AstA | AstA-R1 | 7.0572 | 4.3178 |
-| Head | Cf2_(+) | Cf2 | sNPF | sNPF-R | 3.39565 | 1.45351 |
-| Head | CG16779_(+) | CG16779 | AstA | AstA-R1 | 7.0572 | 4.3178 |
-| Head | CG16779_(+) | CG16779 | sNPF | sNPF-R | 3.39565 | 1.45351 |
-| Head | CG44247_(+) | CG44247 | FMRFa | FMRFaR | 3.33333 | 1.21569 |
-| ... | ...| ... | ... | ... | ... | ... |
-
-
 | Tissue | Motif | TF | TF Count | Gene | Gene Count | Expression | 
 | ----- | --------- | ------- | ------ | ------ | ------ | ------ | 
 | Head | Clk_(-)-NP | Clk | 14098 | sNPF | 4 | 2.71301 | 
